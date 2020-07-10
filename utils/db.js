@@ -9,8 +9,8 @@ class Db {
 		this.connection = mysql.createPool({
 			connectionLimit: 100,
 			host: '127.0.0.1',
-			user: 'phpmyadmin',
-			password: 'champ123',
+			user: '',
+			password: '',
 			database: 'chat',
 			debug: false
 		});
